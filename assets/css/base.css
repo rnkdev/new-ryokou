@@ -1,5 +1,5 @@
 html {
-    background-color: #818181;
+    background-color: #fdfdfd;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
@@ -9,9 +9,17 @@ html {
 }
 
 .header {
-    margin: 0 -2em 0;
-    background-image: url(../images/banner.jpg);
-    padding: 3em 2em 18em;
+    margin-bottom: 20px;
+    /* background-image: url(../images/banner.jpg); */
+    padding: 3em 2em 12em;
+    border: 6px solid;
+}
+
+.header h1 {
+    font-size: 68px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 .gmaps {

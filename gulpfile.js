@@ -8,7 +8,7 @@ gulp.task('serve', function() {
 	open: true
     });
 
-    gulp.watch('./index.html', ['html']);
+    gulp.watch('./index.html').on('change', browserSync.reload);
     gulp.watch('./assets/css/*.css', ['css']);
 
 });
