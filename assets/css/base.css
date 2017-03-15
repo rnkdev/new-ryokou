@@ -11,15 +11,16 @@ html {
 .header {
     margin-bottom: 20px;
     /* background-image: url(../images/banner.jpg); */
-    padding: 3em 2em 12em;
     border: 6px solid;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    height: 100%;
+    min-height: 100px;
 }
 
 .header h1 {
     font-size: 68px;
     text-align: center;
-    vertical-align: middle;
-    margin-top: 10px;
 }
 
 .gmaps {
@@ -41,8 +42,9 @@ html {
 
 .trans-footer {
     position: relative;
-    margin: 0 -2em -4em -2em;
-    background-image: url(../images/footer.png);
+    margin-top: -18%;
+    margin-left: 10%;
+    background-image: url(../images/footer_yuume.png);
     padding: 4em 0em 19em;
 }
 
